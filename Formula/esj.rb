@@ -14,18 +14,18 @@ class Esj < Formula
   on_macos do
     on_arm do
       url "https://github.com/bsnsoft/esj/releases/download/v#{version}/esj-#{version}-native-macos-arm64.zip"
-      sha256 "SHA256-OF-THAT-ARCHIVE"
+      sha256 "87131e6df24dadfb2cef77358dd7d7e809349964a25baf4fbaf3fc88ba4dd8d9"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/bsnsoft/esj/releases/download/v#{version}/esj-#{version}-native-linux-arm64.zip"
-      sha256 "SHA256-OF-THAT-ARCHIVE"
+      sha256 "c9ceb1940fcffc94ddec484b0b8f4d8d64cba084e43bf1f5128eaab5fdedb280"
     end
     on_intel do
       url "https://github.com/bsnsoft/esj/releases/download/v#{version}/esj-#{version}-native-linux-x64.zip"
-      sha256 "SHA256-OF-THAT-ARCHIVE"
+      sha256 "d78dcd6d5be9d397ec4c32f13e101a66fa147c986c0212a87616cc0cb180afe6"
     end
   end
 
