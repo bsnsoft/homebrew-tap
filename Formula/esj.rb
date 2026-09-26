@@ -8,24 +8,24 @@
 class Esj < Formula
   desc "Read, check, convert and render EN 16931 invoices through the semantic model"
   homepage "https://github.com/bsnsoft/esj"
-  version "0.9.1"
+  version "0.9.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/bsnsoft/esj/releases/download/v#{version}/esj-#{version}-native-macos-arm64.zip"
-      sha256 "e8b8be07836702dc92ba102e568bda1ae7dc1dfb5ea17eda9094d9b16e03a203"
+      sha256 "be3a1aa6458b6a5a7358321a462c8d92510bf21db6245a4b9280d15c93814d51"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/bsnsoft/esj/releases/download/v#{version}/esj-#{version}-native-linux-arm64.zip"
-      sha256 "c0bf43656396687e2d85e84d8b150509f38ee05c3c1f8779873124b9dde28217"
+      sha256 "7c6d6b8a4d5bd557c283701b01e0ada7b2e7dc2bb327775ca04128b5531a93c4"
     end
     on_intel do
       url "https://github.com/bsnsoft/esj/releases/download/v#{version}/esj-#{version}-native-linux-x64.zip"
-      sha256 "110a010bf05a5f47333dc857f5689d07a0c55394c7adc900f145411e4133c37d"
+      sha256 "50ea7fc3a60d60047d02ca84e3457fb53e958fa0aaf7bbb18a190d6f3856ef2b"
     end
   end
 
